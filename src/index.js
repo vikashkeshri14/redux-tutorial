@@ -10,7 +10,7 @@ import rootReducers from "./services/reducers";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const store = createStore(rootReducers);
-console.log("Strore data :", store);
+//console.log("Strore data :", store);
 root.render(
   <Provider store={store}>
     <App />

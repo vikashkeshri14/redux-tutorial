@@ -6,11 +6,23 @@
 
 .cart {
   position: absolute;
-  right: 1%;
+  right: 2%;
   top: 20px;
 }
 .cart-wrapper-item {
   border: 1px solid #ccc;
   padding: 5px;
   text-align: center;
+}
+.add-to-cart {
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  border: 1px solid rgb(204, 204, 204);
+}
+.remove-to-cart {
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  background-color: rgb(240, 83, 21);
+  border: 1px solid rgb(204, 204, 204);
 }
